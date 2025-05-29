@@ -1,5 +1,5 @@
-<style>
-    h1 { font-size: 4rem;}
-</style>
+<?php
 
-<h1>Teste</h1>
+//autoload
+require_once __DIR__ . '/../system/Autloader.php';
+
