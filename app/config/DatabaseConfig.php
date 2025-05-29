@@ -6,9 +6,9 @@ class DatabaseConfig {
     public static function getConfig(): array {
         return [
             'host' => 'localhost',
-            'database' => 'seu_banco',
-            'username' => 'seu_usuario',
-            'password' => 'sua_senha',
+            'database' => 'base_php',
+            'username' => 'root',
+            'password' => '',
             'charset' => 'utf8mb4',
             'options' => [
                 PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
